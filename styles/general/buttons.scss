@@ -1,5 +1,7 @@
 
-.button__action{
+.button {
+  &__action {
     width: 222px;
     background-color: aqua;
+  }
 }

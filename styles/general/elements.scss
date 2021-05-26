@@ -1,11 +1,10 @@
 .body {
   margin: 0;
   display: flex;
-  font-family: "Roboto", Arial;
+  font-family: 'Exo 2';
   flex-direction: column;
   &__feedback {
     display: flex;
-    font-family: "Roboto", Arial;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -13,10 +12,13 @@
   &__returnering {
     display: flex;
     flex-direction: column;
-    font-family: "Roboto", Arial;
     justify-content: center;
     align-items: center;
   }
+}
+
+p{
+  font-family: 'Exo 2';
 }
 
 .header {

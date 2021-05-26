@@ -1,5 +1,6 @@
 .feedback__text {
   color: #05b4e3;
+  font-family: 'Exo 2';
   font-weight: bold;
   margin-left: 25%;
   margin-top: 0px;
@@ -7,6 +8,7 @@
 }
 
 .feedback {
+    font-family: 'Exo 2';
   --normal: #eceaf3;
   --normal-shadow: #d9d8e3;
   --normal-mouth: #9795a4;
@@ -406,10 +408,11 @@ textarea {
   padding: 30px;
   border: 0;
   width: 100%;
+  resize: none;
   font-size: 1rem;
-  background-color: #2d2d2d;
   color: white;
-  border-radius: 4px;
+  border-radius: 12px;
+  background-color: #F4F4F4;
 }
 
 input:focus,

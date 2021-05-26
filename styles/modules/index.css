@@ -485,6 +485,23 @@ input[type=checkbox]:checked + label {
   margin-left: 22px;
 }
 
+.nærbokslogo_phonescreen {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 44px;
+}
+
+.phoneinfo_text {
+  font-size: 17px;
+  text-align: center;
+}
+
+.phoneinfo_title {
+  text-align: center;
+  margin-top: 52px;
+}
+
 /* Remember to add new modules here:
     @forward 'module_name';
 */

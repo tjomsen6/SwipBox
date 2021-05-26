@@ -541,6 +541,10 @@ input[type=checkbox]:checked + label {
   display: flex;
 }
 
+.inputArea {
+  width: 360px;
+}
+
 /* Remember to add new modules here:
     @forward 'module_name';
 */

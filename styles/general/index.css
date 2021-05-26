@@ -188,6 +188,12 @@
   justify-content: center;
   align-items: center;
 }
+.body__kundeservice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 p {
   font-family: "Exo 2";

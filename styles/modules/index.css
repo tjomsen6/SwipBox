@@ -473,6 +473,18 @@ input[type=checkbox]:checked + label {
   font-style: normal;
 }
 
+.--position {
+  margin-top: 11px;
+}
+
+.label__text {
+  font-family: "Exo 2";
+}
+
+.--horizontal {
+  margin-left: 22px;
+}
+
 /* Remember to add new modules here:
     @forward 'module_name';
 */

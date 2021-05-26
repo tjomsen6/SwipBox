@@ -16,10 +16,6 @@
     transform: rotate(359deg);
   }
 }
-h1 {
-  color: var(--headline);
-}
-
 .inputtext {
   text-align: center;
 }

@@ -522,6 +522,10 @@ input[type=checkbox]:checked + label {
   margin-top: 52px;
 }
 
+.inputArea {
+  width: 360px;
+}
+
 /* Remember to add new modules here:
     @forward 'module_name';
 */

@@ -526,6 +526,10 @@ input[type=checkbox]:checked + label {
   margin-top: 52px;
 }
 
+.inputArea {
+  width: 360px;
+}
+
 /* Remember to add new modules here:
     @forward 'module_name';
 */
@@ -707,6 +711,12 @@ input[type=checkbox]:checked + label {
   flex-direction: column;
 }
 .body__returnering {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body__kundeservice {
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -1,0 +1,19 @@
+.nærboksIcon{
+    display: block;
+    margin-left: 43%;
+    margin-top: 100%;
+    width: 58px;
+    height: 58px;
+    animation: rotation 2s infinite linear;
+}
+
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  

@@ -63,26 +63,38 @@
   color: #FF7B7B;
 }
 .button__route {
-  width: 56.5px;
-  height: 32.75px;
+  width: 130px;
+  height: 41px;
   border: none;
   border-radius: 15px;
   background-image: linear-gradient(to right, #FF3F47, #F26522);
 }
 .button__location {
-  width: 56.5px;
-  height: 32.75px;
+  width: 130px;
+  height: 41px;
   border: none;
   border-radius: 15px;
   background-image: linear-gradient(to right, #07BCE9, #00A0D5);
 }
 
+body {
+  margin: 0;
+}
+
 .header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  margin-top: 25px;
+  justify-content: space-evenly;
+  width: 390px;
 }
 .header__logo {
-  max-width: 170px;
+  justify-content: center;
+}
+.globus {
+  position: fixed;
+  z-index: -1;
+  bottom: -120px;
 }
 
 /* Remember to add new modules here:

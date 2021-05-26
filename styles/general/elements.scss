@@ -29,6 +29,7 @@ p {
   margin-top: 25px;
   justify-content: space-evenly;
   width: 390px;
+  margin-bottom: 0px;
   &__logo {
     justify-content: center;
   }
@@ -43,6 +44,13 @@ h1 {
   font-family: "Exo 2";
   font-size: 30px;
   margin-top: 55px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  margin-top: 65px;
 }
 
 .globus {

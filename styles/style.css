@@ -1,12 +1,9 @@
-/* Remember to add new modules here:
-    @forward 'module_name';
-*/
 .button__action {
   width: 222px;
   height: 41px;
   border: none;
   border-radius: 15px;
-  background-image: linear-gradient(to left, #07BCE9, #00A0D5);
+  background-image: linear-gradient(to left, #07bce9, #00a0d5);
   color: white;
 }
 .button__action--small {
@@ -14,7 +11,7 @@
   height: 41px;
   border: none;
   border-radius: 15px;
-  background-image: linear-gradient(to left, #07BCE9, #00A0D5);
+  background-image: linear-gradient(to left, #07bce9, #00a0d5);
   color: white;
 }
 .button__action--thin {
@@ -22,7 +19,7 @@
   height: 33px;
   border: none;
   border-radius: 15px;
-  background-image: linear-gradient(to left, #07BCE9, #00A0D5);
+  background-image: linear-gradient(to left, #07bce9, #00a0d5);
   color: white;
 }
 .button__action--error {
@@ -30,7 +27,7 @@
   height: 41px;
   border: none;
   border-radius: 15px;
-  background-color: #FA5353;
+  background-color: #fa5353;
   color: white;
 }
 .button__next {
@@ -38,7 +35,7 @@
   height: 41px;
   border: none;
   border-radius: 15px;
-  background-image: linear-gradient(to left, #07BCE9, #00A0D5);
+  background-image: linear-gradient(to left, #07bce9, #00a0d5);
   color: white;
 }
 .button__skip {
@@ -46,8 +43,8 @@
   height: 41px;
   border: none;
   border-radius: 15px;
-  background-color: #E4E9EB;
-  color: #07BBE8;
+  background-color: #e4e9eb;
+  color: #07bbe8;
 }
 .button__abort {
   width: 79px;
@@ -55,7 +52,7 @@
   border: none;
   border-radius: 15px;
   background-color: #f4f4f4;
-  color: #FF7B7B;
+  color: #ff7b7b;
 }
 .button__abort--small {
   width: 90px;
@@ -63,23 +60,26 @@
   border: none;
   border-radius: 15px;
   background-color: #f4f4f4;
-  color: #FF7B7B;
+  color: #ff7b7b;
 }
 .button__route {
   width: 130px;
   height: 41px;
   border: none;
   border-radius: 15px;
-  background-image: linear-gradient(to right, #FF3F47, #F26522);
+  background-image: linear-gradient(to right, #ff3f47, #f26522);
 }
 .button__location {
   width: 130px;
   height: 41px;
   border: none;
   border-radius: 15px;
-  background-image: linear-gradient(to right, #07BCE9, #00A0D5);
+  background-image: linear-gradient(to right, #07bce9, #00a0d5);
 }
-
-/* Remember to add new modules here:
-    @forward 'module_name';
-*/
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.header__logo {
+  max-width: 170px;
+}

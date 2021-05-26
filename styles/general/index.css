@@ -1,6 +1,88 @@
 .button__action {
   width: 222px;
-  background-color: aqua;
+  height: 41px;
+  border: none;
+  border-radius: 15px;
+  background-image: linear-gradient(to left, #07BCE9, #00A0D5);
+  color: white;
+}
+.button__action--small {
+  width: 159px;
+  height: 41px;
+  border: none;
+  border-radius: 15px;
+  background-image: linear-gradient(to left, #07BCE9, #00A0D5);
+  color: white;
+}
+.button__action--thin {
+  width: 116.65px;
+  height: 33px;
+  border: none;
+  border-radius: 15px;
+  background-image: linear-gradient(to left, #07BCE9, #00A0D5);
+  color: white;
+}
+.button__action--error {
+  width: 159px;
+  height: 41px;
+  border: none;
+  border-radius: 15px;
+  background-color: #FA5353;
+  color: white;
+}
+.button__next {
+  width: 125px;
+  height: 41px;
+  border: none;
+  border-radius: 15px;
+  background-image: linear-gradient(to left, #07BCE9, #00A0D5);
+  color: white;
+}
+.button__skip {
+  width: 125px;
+  height: 41px;
+  border: none;
+  border-radius: 15px;
+  background-color: #E4E9EB;
+  color: #07BBE8;
+}
+.button__abort {
+  width: 79px;
+  height: 41px;
+  border: none;
+  border-radius: 15px;
+  background-color: #f4f4f4;
+  color: #FF7B7B;
+}
+.button__abort--small {
+  width: 90px;
+  height: 41px;
+  border: none;
+  border-radius: 15px;
+  background-color: #f4f4f4;
+  color: #FF7B7B;
+}
+.button__route {
+  width: 56.5px;
+  height: 32.75px;
+  border: none;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, #FF3F47, #F26522);
+}
+.button__location {
+  width: 56.5px;
+  height: 32.75px;
+  border: none;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, #07BCE9, #00A0D5);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.header__logo {
+  max-width: 170px;
 }
 
 /* Remember to add new modules here:

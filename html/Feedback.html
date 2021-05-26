@@ -9,6 +9,9 @@
 </head>
 <body class="body__feedback">
     <header>
+        
+    </header>
+    <main>
         <h1 class="feedback__text">Feedback</h1>
         <ul class="feedback">
             <li class="angry">
@@ -74,20 +77,21 @@
             </symbol>
         </svg>
         <p>Gjorde vi et godt arbejde?</p>
-    </header>
-    <main>
         <div class="col-xs-12">
             <div class="styled-input wide">
                 <textarea required></textarea>
-                <label>Din besked</label>
+                <label class="label__text">Din besked</label>
             </div>
         </div>
         <article>
-            <button class="button__abort">Afbryd</button>
-            <button class="button__action--small">Send besked</button>
+            <button class="button__abort --position">Afbryd</button>
+            <button class="button__action--small --horizontal">Send besked</button>
         </article>
     </main>
     
+    <footer class="globus">
+        <img src="/media/globus.svg" alt="globus">
+    </footer>
 <script>
     document.querySelectorAll('.feedback li').forEach(entry => entry.addEventListener('click', e => {
     if(!entry.classList.contains('active')) {

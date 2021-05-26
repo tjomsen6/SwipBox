@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../styles/style.css">
     <title>Feedback</title>
 </head>
-<body>
+<body class="body__feedback">
     <header>
         <h1 class="feedback__text">Feedback</h1>
         <ul class="feedback">
@@ -73,7 +73,20 @@
                 <path d="M1,5.5 C3.66666667,2.5 6.33333333,1 9,1 C11.6666667,1 14.3333333,2.5 17,5.5"></path>
             </symbol>
         </svg>
+        <p>Gjorde vi et godt arbejde?</p>
     </header>
+    <main>
+        <div class="col-xs-12">
+            <div class="styled-input wide">
+                <textarea required></textarea>
+                <label>Din besked</label>
+            </div>
+        </div>
+        <article>
+            <button></button>
+            <button></button>
+        </article>
+    </main>
     
 <script>
     document.querySelectorAll('.feedback li').forEach(entry => entry.addEventListener('click', e => {

@@ -485,6 +485,26 @@ input[type=checkbox]:checked + label {
   margin-left: 22px;
 }
 
+.brand {
+  justify-content: center;
+  align-items: center;
+}
+.brand__logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+}
+
+.choice {
+  display: flex;
+  flex-direction: row;
+  width: 390px;
+  height: 210px;
+  justify-content: space-evenly;
+  margin-top: 45px;
+}
+
 /* Remember to add new modules here:
     @forward 'module_name';
 */

@@ -5,6 +5,15 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 35px;
+    margin-top: 45px;
   }
+}
+
+.choice {
+  display: flex;
+  flex-direction: row;
+  width: 390px;
+  height: 210px;
+  justify-content: space-evenly;
+  margin-top: 45px;
 }

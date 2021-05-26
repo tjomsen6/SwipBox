@@ -99,20 +99,69 @@
 }
 .button__scan {
   width: 145px;
+  height: 155px;
   border: 2px;
-  border: solid 3px black;
+  border: none;
   border-radius: 15px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  margin-top: 25px;
 }
 .button__scanImg {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 25px;
+  height: 33px;
+}
+.button__scanTxt {
+  width: 70px;
+  font-size: 1em;
+  margin: 1em auto 20px;
+  text-align: center;
 }
 .button__scanBtn {
   width: 145px;
+  height: 45px;
   border: none;
-  background-color: linear-gradient(to left, #07bce9, #00a0d5);
+  background-image: linear-gradient(to right, #07bce9, #00a0d5);
   padding: 0;
+  border-radius: 10px 10px 25px 25px;
+  font-family: "Exo 2";
+  color: white;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+.button__tast {
+  width: 145px;
+  height: 155px;
+  border: 2px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  margin-top: 25px;
+}
+.button__tastImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  height: 33px;
+}
+.button__tastTxt {
+  width: 70px;
+  font-size: 1em;
+  margin: 1em auto 20px;
+  text-align: center;
+}
+.button__tastBtn {
+  width: 145px;
+  height: 45px;
+  border: none;
+  background-image: linear-gradient(to right, #07bce9, #00a0d5);
+  padding: 0;
+  border-radius: 10px 10px 25px 25px;
+  font-family: "Exo 2";
+  color: white;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 
 .body {
@@ -159,6 +208,7 @@ h1 {
 
 h3 {
   font-family: "Exo 2";
+  font-weight: lighter;
   font-size: 20px;
   margin-top: 65px;
 }

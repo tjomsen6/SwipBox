@@ -98,6 +98,9 @@ h1 {
 .feedback__text {
   color: #05B4E3;
   font-weight: bold;
+  margin-left: 25%;
+  margin-top: 0px;
+  margin-bottom: 55px;
 }
 
 .feedback {
@@ -394,14 +397,90 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  min-height: 50vh;
+.body__feedback {
   display: flex;
   font-family: "Roboto", Arial;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #F9F9FC;
+}
+
+/* ///// inputs /////*/
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+  font-size: 0.75em;
+  color: #999;
+  top: -5px;
+  transition: all 0.225s ease;
+}
+
+.styled-input {
+  float: left;
+  position: relative;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+  .styled-input {
+    width: 100%;
+  }
+}
+.styled-input label {
+  color: #989898;
+  border-radius: 20px;
+  padding: 1.3rem 30px 1rem 30px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+.styled-input.wide {
+  width: 290px;
+  max-width: 100%;
+}
+
+input,
+textarea {
+  padding: 30px;
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #2d2d2d;
+  color: white;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+  outline: 0;
+}
+
+input:focus ~ span,
+textarea:focus ~ span {
+  width: 100%;
+  transition: all 0.075s ease;
+}
+
+textarea {
+  width: 100%;
+  min-height: 15em;
+}
+
+.input-container {
+  width: 650px;
+  max-width: 100%;
+  margin: 20px auto 25px auto;
+}
+
+input[type=checkbox] + label {
+  color: #ccc;
+  font-style: italic;
+}
+
+input[type=checkbox]:checked + label {
+  color: #f00;
+  font-style: normal;
 }
 
 /* Remember to add new modules here:

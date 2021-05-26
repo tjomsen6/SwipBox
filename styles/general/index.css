@@ -131,6 +131,13 @@ p {
 .header__logo {
   justify-content: center;
 }
+h1 {
+  color: #05b4e3;
+  font-family: "Exo 2";
+  font-size: 30px;
+  margin-top: 55px;
+}
+
 .globus {
   position: fixed;
   z-index: -1;

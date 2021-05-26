@@ -558,6 +558,7 @@ input[type=checkbox]:checked + label {
 
 .--phoneposition {
   margin-left: 4em;
+  margin-top: 15em;
 }
 
 .inputArea {

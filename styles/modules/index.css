@@ -485,6 +485,17 @@ input[type=checkbox]:checked + label {
   margin-left: 22px;
 }
 
+.brand {
+  justify-content: center;
+  align-items: center;
+}
+.brand__logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+}
+
 .nærbokslogo_phonescreen {
   display: block;
   margin-left: auto;

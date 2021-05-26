@@ -5,12 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Verificering</title>
-  <link rel="stylesheet" href="../styles/verificering.scss">
+  <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
-  <article class="container">
+<img class="nærboks__logo" src="../media/Nærboks_logo.svg" alt="nærboks logo">
+
+<main class="container">
     <section class="inputtext">
-   
+        <h1>Indtast verificeringskoden</h1>
+        <p>Vi har koden den til +4526249007</p>
+        <p>Indtast nedenfor</p>
     </section>
     <section>
         <article class="inputcontainer">
@@ -20,7 +24,16 @@
             <input type="tel" class="input" placeholder="_" id="fourth-input" maxlength="1">
         </article>
     </section>
-</article>
+        <button class="authenticator --active">
+            <div class="col-3">
+                <div class="snippet" data-title=".dot-typing">
+                    <div class="stage">
+                        <div class="dot-typing"></div>
+                    </div>
+                </div>
+            </div>
+        </button>
+</main>
 <script>
     var container = document.getElementsByClassName("inputcontainer")[0];
     var last = document.getElementById("fourth-input");
@@ -43,6 +56,7 @@
             if(document.activeElement === last){
                 if(last.value != ""){
                     window.location.href = "start.html";
+
                 }
             }
         }else if(mylength === 0){

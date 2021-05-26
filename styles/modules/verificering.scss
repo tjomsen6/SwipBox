@@ -1,72 +1,145 @@
-.inputtext {
-    text-align: center;
 
+.nærboks__logo {
+   display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 44px;
+ width: 50%;
+ 
+}
+
+.authenticator,.--active {
+   text-decoration: none;
+   border: none;
+   border-radius: 15px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 44px;
+   height: 44px;
+   width: 60%;
+   color: #7B8594;
+   -webkit-transition: ease-out 0.4s;
+   -moz-transition: ease-out 0.4s;
+   transition: ease-out 0.4s;
+}
+
+.inputtext {
+   text-align: center;
 }
 
 .input {
-    width: 72px;
-    height: 114px;
-    font-size: 90px;
-    font-family: Avenir;
-    color:#FFB32A;
-    text-align: center;
-    background-color: #304555;
-    border: 3px solid #4B6E89;
-    padding: 30px 0px;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    caret-color: transparent;
+   width: 57px;
+   height: 64px;
+   font-size: 25px;
+   text-align: center;
+   border-radius: 15px;
+   background-color: #F4F4F4;
+   border: none;
+   display: flex;
 }
 
 .inputcontainer {
-    display: flex;
-    justify-content: center;
-   
+   display: flex;
+   justify-content: center;
+   justify-content: space-between;
+   margin-left: 54px;
+   margin-right: 54px;
 }
 
 .container{
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%,-50%);
-   width: 100%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
 }
 
 .input:focus{
-    border: 3px solid #6A9FC7;
-    outline: none;
+   border: 3px solid #6A9FC7;
+   outline: none;
 }
 
 .input::-webkit-input-placeholder {
-    color:transparent;
- }
- 
- .input:-moz-placeholder { /* Firefox 18- */
-    color:transparent; 
- }
- 
- .input::-moz-placeholder {  /* Firefox 19+ */
-    color:transparent; 
- }
- 
- .input:-ms-input-placeholder {  
-    color:transparent;
+   color:transparent;
+}
+
+.input:-moz-placeholder { /* Firefox 18- */
+   color:transparent; 
+}
+
+.input::-moz-placeholder {  /* Firefox 19+ */
+   color:transparent; 
+}
+
+.input:-ms-input-placeholder {  
+   color:transparent;
+}
+
+.input:focus .input::-webkit-input-placeholder {
+   color:#fff;
+}
+
+.input:focus .input:-moz-placeholder { /* Firefox 18- */
+   color:#fff; 
+}
+
+.input:focus .input::-moz-placeholder {  /* Firefox 19+ */
+   color:#fff; 
+}
+
+.input:focus .input:-ms-input-placeholder {  
+   color:#fff;
+}
+
+
+
+/* Main button */
+.dot-typing {
+   position: relative;
+   left: -9999px;
+   width: 7.5px;
+   height: 7.5px;
+   border-radius: 5px;
+   background-color: #7B8594;
+   color: #7B8594;
+   box-shadow: 9984px 0 0 0 #7B8594, 9999px 0 0 0 #7B8594, 10014px 0 0 0 #7B8594;
+   animation: dotTyping 1.5s infinite linear;
  }
 
- .input:focus .input::-webkit-input-placeholder {
-    color:#fff;
+ .col-3{
+   margin-left: 50%;
  }
  
- .input:focus .input:-moz-placeholder { /* Firefox 18- */
-    color:#fff; 
+ 
+ @keyframes dotTyping {
+   0% {
+     box-shadow: 9984px 0 0 0 #7B8594, 9999px 0 0 0 #7B8594, 10014px 0 0 0 #7B8594;
+   }
+   16.667% {
+     box-shadow: 9984px -10px 0 0 #7B8594, 9999px 0 0 0 #7B8594, 10014px 0 0 0 #7B8594;
+   }
+   33.333% {
+     box-shadow: 9984px 0 0 0 #7B8594, 9999px 0 0 0 #7B8594, 10014px 0 0 0 #7B8594;
+   }
+   50% {
+     box-shadow: 9984px 0 0 0 #7B8594, 9999px -10px 0 0 #7B8594, 10014px 0 0 0 #7B8594;
+   }
+   66.667% {
+     box-shadow: 9984px 0 0 0 #7B8594, 9999px 0 0 0 #7B8594, 10014px 0 0 0 #7B8594;
+   }
+   83.333% {
+     box-shadow: 9984px 0 0 0 #7B8594, 9999px 0 0 0 #7B8594, 10014px -10px 0 0 #7B8594;
+   }
+   100% {
+     box-shadow: 9984px 0 0 0 #7B8594, 9999px 0 0 0 #7B8594, 10014px 0 0 0 #7B8594;
+   }
  }
  
- .input:focus .input::-moz-placeholder {  /* Firefox 19+ */
-    color:#fff; 
+ 
+ .-authenticator:hover {
+   box-shadow: inset 400px 0 0 0 linear-gradient(to right, #00A0D5, #07BCE9);
  }
  
- .input:focus .input:-ms-input-placeholder {  
-    color:#fff;
- }
+ /* Lock */
+ 

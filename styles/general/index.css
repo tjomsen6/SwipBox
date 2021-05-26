@@ -111,6 +111,13 @@
   align-items: center;
   flex-direction: column;
 }
+.body__returnering {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", Arial;
+  justify-content: center;
+  align-items: center;
+}
 
 .header {
   display: flex;

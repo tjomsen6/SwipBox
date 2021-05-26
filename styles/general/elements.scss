@@ -1,8 +1,24 @@
+Body {
+  margin: 0;
+}
+
 .header {
   display: flex;
-  flex-direction: column;
-
+  flex-direction: row;
+  margin-top: 25px;
+  justify-content: space-evenly;
+  width: 390px;
   &__logo {
-    max-width: 170px;
+    justify-content: center;
   }
+  &__weather {
+  }
+  &__menu {
+  }
+}
+
+.globus {
+  position: fixed;
+  z-index: -1;
+  bottom: -120px;
 }

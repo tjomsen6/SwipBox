@@ -96,7 +96,7 @@ h1 {
 }
 
 .feedback__text {
-  color: #05B4E3;
+  color: #05b4e3;
   font-weight: bold;
   margin-left: 25%;
   margin-top: 0px;
@@ -104,13 +104,13 @@ h1 {
 }
 
 .feedback {
-  --normal: #ECEAF3;
-  --normal-shadow: #D9D8E3;
-  --normal-mouth: #9795A4;
+  --normal: #eceaf3;
+  --normal-shadow: #d9d8e3;
+  --normal-mouth: #9795a4;
   --normal-eye: #595861;
-  --active: #F8DA69;
-  --active-shadow: #F4B555;
-  --active-mouth: #F05136;
+  --active: #f8da69;
+  --active-shadow: #f4b555;
+  --active-mouth: #f05136;
   --active-eye: #313036;
   --active-tear: #76b5e7;
   --active-shadow-angry: #e94f1d;
@@ -259,11 +259,11 @@ h1 {
   --b: var(--m, var(--normal-mouth));
 }
 .feedback li.ok.active div:before {
-  --middle-s-y: .35;
+  --middle-s-y: 0.35;
   animation: toggle 0.2s linear forwards;
 }
 .feedback li.ok.active div:after {
-  --middle-s-x: .5;
+  --middle-s-x: 0.5;
   animation: toggle 0.7s linear forwards;
 }
 .feedback li.good {
@@ -325,8 +325,8 @@ h1 {
   --sc: -1;
 }
 .feedback li.happy.active div:after {
-  --middle-s-x: .95;
-  --middle-s-y: .75;
+  --middle-s-x: 0.95;
+  --middle-s-y: 0.75;
   animation: toggle 0.8s linear forwards;
 }
 .feedback li:not(.active) {
@@ -397,16 +397,11 @@ html {
   box-sizing: inherit;
 }
 
-.body__feedback {
-  display: flex;
-  font-family: "Roboto", Arial;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 /* ///// inputs /////*/
-input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+input:focus ~ label,
+textarea:focus ~ label,
+input:valid ~ label,
+textarea:valid ~ label {
   font-size: 0.75em;
   color: #999;
   top: -5px;

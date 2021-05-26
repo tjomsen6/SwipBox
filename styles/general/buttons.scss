@@ -7,6 +7,8 @@
       border-radius: 15px;
       background-image: linear-gradient(to left, #07BCE9 , #00A0D5);
       color: white;
+      font-family: 'Exo 2';
+      font-weight: 500;
     }
 
     &__action--small{
@@ -16,6 +18,8 @@
       border-radius: 15px;
       background-image: linear-gradient(to left, #07BCE9 , #00A0D5);
       color: white;
+      font-family: 'Exo 2';
+      font-weight: 500;
     }
 
     &__action--thin{
@@ -25,6 +29,8 @@
       border-radius: 15px;
       background-image: linear-gradient(to left, #07BCE9 , #00A0D5);
       color: white;
+      font-family: 'Exo 2';
+      font-weight: 500;
     }
 
     &__action--error{
@@ -34,6 +40,8 @@
       border-radius: 15px;
       background-color: #FA5353;
       color: white;
+      font-family: 'Exo 2';
+      font-weight: 500;
     }
 
     &__next{
@@ -43,6 +51,8 @@
       border-radius: 15px;
       background-image: linear-gradient(to left, #07BCE9 , #00A0D5);
       color: white;
+      font-family: 'Exo 2';
+      font-weight: 500;
     }
 
     &__skip{
@@ -52,6 +62,8 @@
       border-radius: 15px;
       background-color: #E4E9EB;
       color: #07BBE8;
+      font-family: 'Exo 2';
+      font-weight: 500;
     }
 
     &__abort{
@@ -61,6 +73,8 @@
       border-radius: 15px;
       background-color: #f4f4f4;
       color: #FF7B7B;
+      font-family: 'Exo 2';
+      font-weight: 500;
     }
 
     &__abort--small{
@@ -69,7 +83,9 @@
       border: none;
       border-radius: 15px;
       background-color: #f4f4f4;
-      color: #FF7B7B;    
+      color: #FF7B7B; 
+      font-family: 'Exo 2';
+      font-weight: 500;   
     }
 
     &__route{
@@ -78,6 +94,8 @@
       border: none;
       border-radius: 15px;
       background-image: linear-gradient(to right, #FF3F47 , #F26522);   
+      font-family: 'Exo 2';
+      font-weight: 500;
     }
 
     &__location{
@@ -86,5 +104,7 @@
       border: none;
       border-radius: 15px;
       background-image: linear-gradient(to right, #07BCE9 , #00A0D5);    
+      font-family: 'Exo 2';
+      font-weight: 500;
     }
 }

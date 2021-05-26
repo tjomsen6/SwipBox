@@ -15,4 +15,25 @@
 .phoneinfo_title {
     text-align: center;
     margin-top: 52px;
+    font-weight: 600;
+}
+
+.dropdown__phonebtn {
+    border: none;
+    width: 77px;
+    height: 55px;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.phoneinputfield {
+    border-radius: 0 20px 20px 0;
+    width: 243px;
+}
+
+.buttonPhone_container{
+    display: flex;
 }

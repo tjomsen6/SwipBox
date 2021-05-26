@@ -7,7 +7,7 @@
     <title>Telefon indtastning</title>
     <link rel="stylesheet" href="../styles/style.css">
 </head>
-<body>
+<body class="body__phone">
     <header>
         <img class="nærbokslogo_phonescreen" src="../media//nærbokslogo@3x.png" alt="Nærboks logo">
     </header>
@@ -17,15 +17,18 @@
         <p class="phoneinfo_text">Vi sender dig en 4 cifret verificeringskode</p>
 
         <section class="buttonPhone_container">
-            <button>
-                <img src="" alt="">
+            <button class="dropdown__phonebtn">
+                <img src="../media/denmark-flag.svg" alt="Danmarks flag">
+                <img src="../media/arrow-point-to-down.svg" alt="Drop down menu">
             </button>
-            <input type="tel" id="phone" name="phone" placeholder="+45">
+            <input class="phoneinputfield" type="tel" id="phone" name="phone" placeholder="+45">
         </section>
-        <footer class="globus">
-            <img src="/media/globus.svg" alt="globus">
-        </footer>
+
+       
     </main>
-    
+    <footer class="globus">
+        <img src="/media/globus.svg" alt="globus">
+    </footer>
+
 </body>
 </html>

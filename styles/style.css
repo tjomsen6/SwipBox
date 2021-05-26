@@ -477,6 +477,17 @@ input[type=checkbox]:checked + label {
   font-style: normal;
 }
 
+.brand {
+  justify-content: center;
+  align-items: center;
+}
+.brand__logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+}
+
 /* Remember to add new modules here:
     @forward 'module_name';
 */
@@ -485,7 +496,7 @@ input[type=checkbox]:checked + label {
   height: 41px;
   border: none;
   border-radius: 15px;
-  background-image: linear-gradient(to left, #07BCE9, #00A0D5);
+  background-image: linear-gradient(to left, #07bce9, #00a0d5);
   color: white;
   font-family: "Exo 2";
   font-weight: 400;
@@ -495,7 +506,7 @@ input[type=checkbox]:checked + label {
   height: 41px;
   border: none;
   border-radius: 15px;
-  background-image: linear-gradient(to left, #07BCE9, #00A0D5);
+  background-image: linear-gradient(to left, #07bce9, #00a0d5);
   color: white;
   font-family: "Exo 2";
   font-weight: 500;
@@ -505,7 +516,7 @@ input[type=checkbox]:checked + label {
   height: 33px;
   border: none;
   border-radius: 15px;
-  background-image: linear-gradient(to left, #07BCE9, #00A0D5);
+  background-image: linear-gradient(to left, #07bce9, #00a0d5);
   color: white;
   font-family: "Exo 2";
   font-weight: 500;
@@ -515,7 +526,7 @@ input[type=checkbox]:checked + label {
   height: 41px;
   border: none;
   border-radius: 15px;
-  background-color: #FA5353;
+  background-color: #fa5353;
   color: white;
   font-family: "Exo 2";
   font-weight: 500;
@@ -525,7 +536,7 @@ input[type=checkbox]:checked + label {
   height: 41px;
   border: none;
   border-radius: 15px;
-  background-image: linear-gradient(to left, #07BCE9, #00A0D5);
+  background-image: linear-gradient(to left, #07bce9, #00a0d5);
   color: white;
   font-family: "Exo 2";
   font-weight: 500;
@@ -535,8 +546,8 @@ input[type=checkbox]:checked + label {
   height: 41px;
   border: none;
   border-radius: 15px;
-  background-color: #E4E9EB;
-  color: #07BBE8;
+  background-color: #e4e9eb;
+  color: #07bbe8;
   font-family: "Exo 2";
   font-weight: 500;
 }
@@ -546,7 +557,7 @@ input[type=checkbox]:checked + label {
   border: none;
   border-radius: 15px;
   background-color: #f4f4f4;
-  color: #FF7B7B;
+  color: #ff7b7b;
   font-family: "Exo 2";
   font-weight: 500;
 }
@@ -556,7 +567,7 @@ input[type=checkbox]:checked + label {
   border: none;
   border-radius: 15px;
   background-color: #f4f4f4;
-  color: #FF7B7B;
+  color: #ff7b7b;
   font-family: "Exo 2";
   font-weight: 500;
 }
@@ -565,7 +576,7 @@ input[type=checkbox]:checked + label {
   height: 41px;
   border: none;
   border-radius: 15px;
-  background-image: linear-gradient(to right, #FF3F47, #F26522);
+  background-image: linear-gradient(to right, #ff3f47, #f26522);
   font-family: "Exo 2";
   font-weight: 500;
 }
@@ -574,9 +585,26 @@ input[type=checkbox]:checked + label {
   height: 41px;
   border: none;
   border-radius: 15px;
-  background-image: linear-gradient(to right, #07BCE9, #00A0D5);
+  background-image: linear-gradient(to right, #07bce9, #00a0d5);
   font-family: "Exo 2";
   font-weight: 500;
+}
+.button__scan {
+  width: 145px;
+  border: 2px;
+  border: solid 3px black;
+  border-radius: 15px;
+}
+.button__scanImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button__scanBtn {
+  width: 145px;
+  border: none;
+  background-color: linear-gradient(to left, #07bce9, #00a0d5);
+  padding: 0;
 }
 
 .body {
@@ -608,6 +636,7 @@ p {
   margin-top: 25px;
   justify-content: space-evenly;
   width: 390px;
+  margin-bottom: 0px;
 }
 .header__logo {
   justify-content: center;
@@ -617,6 +646,13 @@ h1 {
   font-family: "Exo 2";
   font-size: 30px;
   margin-top: 55px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  margin-top: 65px;
 }
 
 .globus {

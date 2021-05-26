@@ -1,110 +1,128 @@
-.button{    
-    
-    &__action{
-      width: 222px;
-      height: 41px;
-      border: none;
-      border-radius: 15px;
-      background-image: linear-gradient(to left, #07BCE9 , #00A0D5);
-      color: white;
-      font-family: 'Exo 2';
-      font-weight: 400;
-    }
+@use "color" as *;
 
-    &__action--small{
-      width: 159px;
-      height: 41px;
-      border: none;
-      border-radius: 15px;
-      background-image: linear-gradient(to left, #07BCE9 , #00A0D5);
-      color: white;
-      font-family: 'Exo 2';
-      font-weight: 500;
-    }
+.button {
+  &__action {
+    width: 222px;
+    height: 41px;
+    border: none;
+    border-radius: 15px;
+    background-image: linear-gradient(to left, #07bce9, #00a0d5);
+    color: white;
+    font-family: "Exo 2";
+    font-weight: 400;
+  }
 
-    &__action--thin{
-      width: 116.65px;
-      height: 33px;
-      border: none;
-      border-radius: 15px;
-      background-image: linear-gradient(to left, #07BCE9 , #00A0D5);
-      color: white;
-      font-family: 'Exo 2';
-      font-weight: 500;
-    }
+  &__action--small {
+    width: 159px;
+    height: 41px;
+    border: none;
+    border-radius: 15px;
+    background-image: linear-gradient(to left, #07bce9, #00a0d5);
+    color: white;
+    font-family: "Exo 2";
+    font-weight: 500;
+  }
 
-    &__action--error{
-      width: 159px;
-      height: 41px;
-      border: none;
-      border-radius: 15px;
-      background-color: #FA5353;
-      color: white;
-      font-family: 'Exo 2';
-      font-weight: 500;
-    }
+  &__action--thin {
+    width: 116.65px;
+    height: 33px;
+    border: none;
+    border-radius: 15px;
+    background-image: linear-gradient(to left, #07bce9, #00a0d5);
+    color: white;
+    font-family: "Exo 2";
+    font-weight: 500;
+  }
 
-    &__next{
-      width: 125px;
-      height: 41px;
-      border: none;
-      border-radius: 15px;
-      background-image: linear-gradient(to left, #07BCE9 , #00A0D5);
-      color: white;
-      font-family: 'Exo 2';
-      font-weight: 500;
-    }
+  &__action--error {
+    width: 159px;
+    height: 41px;
+    border: none;
+    border-radius: 15px;
+    background-color: #fa5353;
+    color: white;
+    font-family: "Exo 2";
+    font-weight: 500;
+  }
 
-    &__skip{
-      width: 125px;
-      height: 41px;
-      border: none;
-      border-radius: 15px;
-      background-color: #E4E9EB;
-      color: #07BBE8;
-      font-family: 'Exo 2';
-      font-weight: 500;
-    }
+  &__next {
+    width: 125px;
+    height: 41px;
+    border: none;
+    border-radius: 15px;
+    background-image: linear-gradient(to left, #07bce9, #00a0d5);
+    color: white;
+    font-family: "Exo 2";
+    font-weight: 500;
+  }
 
-    &__abort{
-      width: 79px;
-      height: 41px;
-      border: none;
-      border-radius: 15px;
-      background-color: #f4f4f4;
-      color: #FF7B7B;
-      font-family: 'Exo 2';
-      font-weight: 500;
-    }
+  &__skip {
+    width: 125px;
+    height: 41px;
+    border: none;
+    border-radius: 15px;
+    background-color: #e4e9eb;
+    color: #07bbe8;
+    font-family: "Exo 2";
+    font-weight: 500;
+  }
 
-    &__abort--small{
-      width: 90px;
-      height: 41px;
-      border: none;
-      border-radius: 15px;
-      background-color: #f4f4f4;
-      color: #FF7B7B; 
-      font-family: 'Exo 2';
-      font-weight: 500;   
-    }
+  &__abort {
+    width: 79px;
+    height: 41px;
+    border: none;
+    border-radius: 15px;
+    background-color: #f4f4f4;
+    color: #ff7b7b;
+    font-family: "Exo 2";
+    font-weight: 500;
+  }
 
-    &__route{
-      width: 130px;
-      height: 41px;
-      border: none;
-      border-radius: 15px;
-      background-image: linear-gradient(to right, #FF3F47 , #F26522);   
-      font-family: 'Exo 2';
-      font-weight: 500;
-    }
+  &__abort--small {
+    width: 90px;
+    height: 41px;
+    border: none;
+    border-radius: 15px;
+    background-color: #f4f4f4;
+    color: #ff7b7b;
+    font-family: "Exo 2";
+    font-weight: 500;
+  }
 
-    &__location{
-      width: 130px;
-      height: 41px;
-      border: none;
-      border-radius: 15px;
-      background-image: linear-gradient(to right, #07BCE9 , #00A0D5);    
-      font-family: 'Exo 2';
-      font-weight: 500;
-    }
+  &__route {
+    width: 130px;
+    height: 41px;
+    border: none;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #ff3f47, #f26522);
+    font-family: "Exo 2";
+    font-weight: 500;
+  }
+
+  &__location {
+    width: 130px;
+    height: 41px;
+    border: none;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #07bce9, #00a0d5);
+    font-family: "Exo 2";
+    font-weight: 500;
+  }
+  &__scan {
+    width: 145px;
+    border: 2px;
+    border: solid 3px black;
+    border-radius: 15px;
+  }
+  &__scanImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__scanBtn {
+    width: 145px;
+    border: none;
+    background-color: $buttonAction;
+    padding: 0;
+  }
 }

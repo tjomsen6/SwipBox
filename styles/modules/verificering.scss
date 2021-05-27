@@ -1,11 +1,10 @@
 
 .nærboks__logo {
    display: block;
- margin-left: auto;
- margin-right: auto;
- margin-top: 44px;
- width: 50%;
- 
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 44px;
+   width: 50%;
 }
 
 .authenticator,.--active {
@@ -26,9 +25,14 @@
 
 .inputtext {
    text-align: center;
+   margin-top: 60px;
 }
 
-.input {
+.--margin{
+   margin-top: -11px;
+}
+
+.digitinput {
    width: 57px;
    height: 64px;
    font-size: 25px;
@@ -43,8 +47,9 @@
    display: flex;
    justify-content: center;
    justify-content: space-between;
-   margin-left: 54px;
-   margin-right: 54px;
+   margin-left: 40px;
+   margin-right: 40px;
+   margin-top: 65px;
 }
 
 .container{
@@ -141,5 +146,12 @@
    box-shadow: inset 400px 0 0 0 linear-gradient(to right, #00A0D5, #07BCE9);
  }
  
- /* Lock */
+ .lock{
+   display: block;
+   margin-left: 11.5em;
+   margin-top: 4em;
+   background-color: #EEF5FF;
+   padding: 40px;
+   border-radius: 60px;
+ }
  

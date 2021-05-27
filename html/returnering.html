@@ -8,17 +8,43 @@
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body class="body__returnering">
-    <header class="header"> 
-        <article class="header__menu">
-            <button> <img src="/media/Burgermenu.svg" alt="Burgermenu"></button>
-        </article>
-        <article class="header__logo" >
+    <header class="nav">
+        <nav class="navbar">
+        <section class="burgermenu">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+        </section>
+        <article class="navbar__logo" >
             <img src="/media/Nærboks_logo.svg" alt="logo">
         </article>
-        <article class="header__weather">
+        <article class="navbar__weather">
             <img src="/media/Skyet.svg" alt="vejret">
             <p></p> <!--det er her API skal indstilles til at vises-->
         </article>
+    </nav>
+    <section class="menu__container">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="">Forside</a>
+            </li>
+            <li class="nav__item">
+                <a href="">Retur</a>
+            </li>
+            <li class="nav__item">
+                <a href="">Historik</a>
+            </li>
+            <li class="nav__item">
+                <a href="">Kontakt</a>
+            </li>
+            <li class="nav__item">
+                <a href="">Giv feedback</a>
+            </li>
+            <li class="nav__item log">
+                <a href="">Log af</a>
+            </li>
+        </ul>
+    </section>
     </header>
 
     
@@ -45,5 +71,6 @@
     <footer class="globus">
         <img src="/media/globus.svg" alt="globus">
     </footer>
+    <script src="../JS/menu.js"></script>
 </body>
 </html>

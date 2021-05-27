@@ -8,10 +8,45 @@
     <title>Feedback</title>
 </head>
 <body class="body__feedback">
-    <header>
-        
+    <header class="nav">
+        <nav class="navbar">
+        <section class="burgermenu">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+        </section>
+        <article class="navbar__logo" >
+            <img src="/media/Nærboks_logo.svg" alt="logo">
+        </article>
+        <article class="navbar__weather">
+            <img src="/media/Skyet.svg" alt="vejret">
+            <p></p> <!--det er her API skal indstilles til at vises-->
+        </article>
+    </nav>
+    <section class="menu__container">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="">Forside</a>
+            </li>
+            <li class="nav__item">
+                <a href="">Retur</a>
+            </li>
+            <li class="nav__item">
+                <a href="">Historik</a>
+            </li>
+            <li class="nav__item">
+                <a href="">Kontakt</a>
+            </li>
+            <li class="nav__item">
+                <a href="">Giv feedback</a>
+            </li>
+            <li class="nav__item log">
+                <a href="">Log af</a>
+            </li>
+        </ul>
+    </section>
     </header>
-    <main>
+    <main class="pushdown">
         <h1 class="feedback__text">Feedback</h1>
         <ul class="feedback">
             <li class="angry">
@@ -43,7 +78,7 @@
             <li class="ok">
                 <div></div>
             </li>
-            <li class="good active">
+            <li class="good active1">
                 <div>
                     <svg class="eye left">
                         <use xlink:href="#eye">
@@ -92,14 +127,7 @@
     <footer class="globus">
         <img src="/media/globus.svg" alt="globus">
     </footer>
-<script>
-    document.querySelectorAll('.feedback li').forEach(entry => entry.addEventListener('click', e => {
-    if(!entry.classList.contains('active')) {
-        document.querySelector('.feedback li.active').classList.remove('active');
-        entry.classList.add('active');
-    }
-    e.preventDefault();
-}));
-</script>
+<script src="../JS/feedback.js"></script>
+<script src="../JS/menu.js"></script>
 </body>
 </html>

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap");
 .button__action {
   width: 222px;
@@ -236,46 +237,140 @@ h3 {
   bottom: -120px;
 }
 
-.infoCard {
+/*.infoCard {
   width: 369px;
   height: 180px;
-  border: 2px;
   border: none;
   border-radius: 15px;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 3px 6px rgba($color: #000000, $alpha: 0.16);
   margin-top: 25px;
   display: flex;
   flex-direction: column;
+
+  &__topContent {
+    display: flex;
+    flex-direction: row;
+    width: 359px;
+    height: 70px;
+  }
+  &__buttomContent {
+    display: flex;
+    flex-direction: row;
+    width: 369px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  &__sidecolor {
+    height: 180px;
+    width: 25px;
+    background-image: linear-gradient(to right, #07bce9, #00a0d5);
+  }
+  &__button {
+    width: 250px;
+  }
+  &__text {
+    font-size: 1em;
+    text-align: center;
+  }
+  &__logo {
+    width: 50px;
+    height: 50px;
+  }
 }
-.infoCard__topContent {
-  display: flex;
-  flex-direction: row;
-  width: 369px;
-  height: 70px;
+*/
+.bluebox {
+  width: 34px;
+  background: linear-gradient(180deg, #07bce9 0%, #00a0d5 100%);
+  border-radius: 15px 0px 0px 15px;
 }
-.infoCard__buttomContent {
-  display: flex;
-  flex-direction: row;
+
+.infoCard2 {
+  margin-top: 60px;
   width: 369px;
-  height: 70px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.--infocard2Flex {
+  display: flex;
+  grid-template-columns: 35px 1fr;
+}
+
+.nærboks__name {
+  font-size: 15px;
+}
+
+.nærboks__pakkenr {
+  font-size: 13px;
+  margin-top: -6px;
+}
+
+.moreInfo_dropdown {
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  font-size: 11px;
+  grid-area: dropdown;
 }
-.infoCard__sidecolor {
-  height: 180px;
-  width: 25px;
-  background-image: linear-gradient(to right, #07bce9, #00a0d5);
+
+.nærboks__info {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: nærboksInfo;
 }
-.infoCard__button {
-  width: 250px;
+
+.parcel__logo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: logo;
+  place-self: center;
 }
-.infoCard__text {
-  font-size: 1em;
-  text-align: center;
+
+.exp__date {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  font-size: 10px;
+  grid-area: exp;
+  place-self: center;
+  margin-bottom: 5px;
 }
-.infoCard__logo {
-  width: 50px;
-  height: 50px;
+
+.button__action.--btnactionGrid {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: hentpakke;
+}
+
+.Countdown {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  grid-area: countdown;
+  place-self: center;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 0.5fr 0.1fr 0.5fr 0.5fr;
+  gap: 0px 0px;
+  grid-template-areas: "nærboksInfo logo" ". exp" "hentpakke countdown" "dropdown dropdown";
+  margin-left: 10px;
+}
+
+.dropdown__text {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.bluearrow {
+  width: 16px;
+  margin-top: -3px;
+  margin-bottom: 8px;
 }
 
 /* Remember to add new modules here:

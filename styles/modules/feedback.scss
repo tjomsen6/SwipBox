@@ -102,7 +102,7 @@
           }
         }
       }
-      &.active {
+      &.active1 {
         animation: angry 1s linear;
         div {
           &:before {
@@ -147,7 +147,7 @@
           }
         }
       }
-      &.active {
+      &.active1 {
         div {
           &:before,
           &:after {
@@ -181,7 +181,7 @@
           --b: var(--m, var(--normal-mouth));
         }
       }
-      &.active {
+      &.active1 {
         div {
           &:before {
             --middle-s-y: 0.35;
@@ -229,7 +229,7 @@
           }
         }
       }
-      &.active {
+      &.active1 {
         div {
           svg {
             &.mouth {
@@ -265,7 +265,7 @@
           }
         }
       }
-      &.active {
+      &.active1 {
         div {
           &:after {
             --middle-s-x: 0.95;
@@ -275,13 +275,13 @@
         }
       }
     }
-    &:not(.active) {
+    &:not(.active1) {
       cursor: pointer;
-      &:active {
+      &:active1 {
         transform: scale(0.925);
       }
     }
-    &.active {
+    &.active1 {
       --sb: var(--active);
       --sh: var(--active-shadow);
       --m: var(--active-mouth);
@@ -456,4 +456,8 @@ input[type="checkbox"]:checked + label {
 
 .--horizontal{
     margin-left: 22px;
+}
+
+.pushdown{
+  margin-top: 90px;
 }

@@ -77,3 +77,126 @@ h3 {
   z-index: -1;
   bottom: -120px;
 }
+
+.menu__container{
+  backdrop-filter: blur(30px);
+  background-color: rgba(0, 0, 0, 0.5);  
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  opacity: 0;
+  transition: ease-out 0.2s;
+  position: relative;
+  left: -500px;
+  z-index: 9;
+}
+
+.navbar{
+  position: absolute;
+  width: 100vw;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  max-height: 60px;
+
+  &__logo{
+    max-width: 171px;
+    margin-top: 12px;
+  }
+
+  &__weather{
+    max-width: 40px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+}
+
+.nav{
+  max-height: 60px;
+}
+
+.nav__list{
+  list-style: none;
+  position: relative;
+  top: 70px;
+  left: 10px;
+}
+
+.nav__item a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Exo 2';
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+.nav__item{
+  padding-bottom: 30px;
+  max-width: 325px;
+  margin-right: 0;
+}
+
+.nav__item.log{
+  margin-top: 225px;
+}
+
+body{
+  background-image: url(grass.jpg);
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+.line {
+  width: 30px;
+  margin-bottom: 5px;
+  height: 4px;
+  background-color: black;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: 10;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+.line-1{
+  top: 20px;
+  left: 20px;
+}
+
+.line-2{
+  top: 27px;
+  left: 20px;
+}
+
+.line-3{
+  top: 34px;
+  left: 20px;
+}
+
+.active .line-1 {
+  transform: rotateZ(-45deg) translate(-6px, 8px);
+  background-color: white;
+}
+
+.active .line-2 {
+  opacity: 0;
+  background-color: white;
+}
+
+.active .line-3 {
+  transform: rotateZ(45deg) translate(-2px, -4px);
+  background-color: white;
+}
+
+.active{
+  transition: ease-in 0.3s;
+  left: 0;
+}
+
+.delay{
+  opacity: 1;
+}

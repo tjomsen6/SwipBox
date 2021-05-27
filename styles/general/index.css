@@ -236,6 +236,48 @@ h3 {
   bottom: -120px;
 }
 
+.infoCard {
+  width: 369px;
+  height: 180px;
+  border: 2px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.infoCard__topContent {
+  display: flex;
+  flex-direction: row;
+  width: 369px;
+  height: 70px;
+}
+.infoCard__buttomContent {
+  display: flex;
+  flex-direction: row;
+  width: 369px;
+  height: 70px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.infoCard__sidecolor {
+  height: 180px;
+  width: 25px;
+  background-image: linear-gradient(to right, #07bce9, #00a0d5);
+}
+.infoCard__button {
+  width: 250px;
+}
+.infoCard__text {
+  font-size: 1em;
+  text-align: center;
+}
+.infoCard__logo {
+  width: 50px;
+  height: 50px;
+}
+
 /* Remember to add new modules here:
     @forward 'module_name';
 */

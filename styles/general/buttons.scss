@@ -97,7 +97,12 @@
     background-image: linear-gradient(to right, #ff3f47, #f26522);
     font-family: "Exo 2";
     font-weight: 500;
+
+    &__pin{
+      width: 12%;
+    }
   }
+
 
   &__location {
     width: 130px;

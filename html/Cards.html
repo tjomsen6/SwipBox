@@ -7,7 +7,7 @@
     <title>Cards</title>
     <link rel="stylesheet" href="../styles/style.css">
 </head>
-<body>
+<body class="--padding">
     
     <section class="infoCard2 --infocard2Flex">
         <section class="bluebox"></section>
@@ -26,13 +26,14 @@
             <button class="button__action --btnactionGrid">Hent pakke</button>
 
             <img class="Countdown" src="../media/Timer.svg" alt="Timer">
-
-            <section class="moreInfo_dropdown">
-                <p class="dropdown__text">Se mere</p>
-                <img class="bluearrow" src="../media/blue-arrow-point-down.svg" alt="blue arrow dropdown">
-            </section>
+        </section>
+        <section class="moreInfo_dropdown">
+            <p class="dropdown__text">Se mere</p>
+            <img class="bluearrow" src="../media/blue-arrow-point-down.svg" alt="blue arrow dropdown">
         </section>
     </section>
+
+
 
     <section class="infoCard2 --infocard2Flex">
         <section class="bluebox"></section>
@@ -42,20 +43,64 @@
                 <h2 class="nærboks__name">NÆRBOKS VOTHMANNS PLADS</h2>
                 <p class="nærboks__pakkenr">Pakkenummer: 00373325386872265244</p>
             </section>
-
-            
-            <img class="parcel__logo" src="../media/Postnord logo.svg" alt="logo">
+            <img class="parcel__logo" src="../media/bringLogo.svg" alt="logo">
 
             <p class="exp__date">Udløber om</p>
 
             <button class="button__action --btnactionGrid">Hent pakke</button>
 
             <img class="Countdown" src="../media/Timer.svg" alt="Timer">
+        </section>
 
-            <section class="moreInfo_dropdown">
-                <p class="dropdown__text">Se mere</p>
-                <img class="bluearrow" src="../media/blue-arrow-point-down.svg" alt="blue arrow dropdown">
+        <section class="secondwrapper">
+            <h2 class="location__title">Lokalitet</h2>
+
+            <section class="locationbtn__gridarea">
+                <article class="route__flex">
+                    <p class="route__flex__title">Vis vej til boks</p>
+                    <button class="button__route"><img class="button__route__pin" src="../media/pin.svg" alt="Pin location"></button>
+                </article>
+
+                <article class="around__flex">
+                    <p class="around__flex__title">Se boksen</p>
+                    <button class="button__location"><img src="../media/360.svg" alt="360 picture"></button>
+                </article>
             </section>
+
+            <article class="placeDescription">
+                <p class="placeDescription__title">Beskrivelse af nærboks placering:</p>
+                <p>Boksen er placeret udendørs. Står opad den sidste bygning, tættest mod broen</p>
+            </article>
+            <img class="nærboks__pic" src="../media/madsclausennærboks.svg" alt="Mads Clausen nærboks">
+        </section>
+
+        <section class="pakkeinfo">
+            <h2 class="size__title">Mål på pakke</h2>
+            <section class="pakkeinfo__flex">
+                <img src="../media/pakkeinfo.svg" alt="Pakke info">
+
+                <section class="pakkestats">
+                    <article class="pakkestats__line">
+                        <p class="--min-width">Længde</p>
+                        <p class="--min-width">30 cm</p>
+                    </article>
+
+                    <article class="pakkestats__line">
+                        <p class="--min-width">Bredde</p>
+                        <p class="--min-width">20 cm</p>
+                    </article>
+
+                    <article class="pakkestats__line">
+                        <p class="--min-width">Højde</p>
+                        <p class="--min-width">19 cm</p>
+                    </article>
+                </section>
+            </section>
+        </section>
+
+        <section class="moreInfo_dropdown">
+            <p class="dropdown__text">Se mere</p>
+            <img class="bluearrow" src="../media/blue-arrow-point-down.svg" alt="blue arrow dropdown">
         </section>
     </section>
 

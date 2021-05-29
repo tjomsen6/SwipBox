@@ -579,6 +579,35 @@ ul {
   padding-bottom: 40px;
 }
 
+.infoCard2 {
+  height: 210px;
+  overflow: hidden;
+}
+
+.infoCard2 .secondwrapper, .infoCard2 .pakkeinfo {
+  opacity: 0;
+}
+
+.infoCard2 .moreInfo_dropdown {
+  top: -60px;
+}
+
+/* OPEN STATE */
+.infoCard2.--open {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  overflow: visible;
+}
+
+.infoCard2.--open .secondwrapper, .infoCard2.--open .pakkeinfo {
+  opacity: 1;
+}
+
+.infoCard2.--open .moreInfo_dropdown {
+  top: unset;
+}
+
 /* Remember to add new modules here:
     @forward 'module_name';
 */

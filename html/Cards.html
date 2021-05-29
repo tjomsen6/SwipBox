@@ -107,6 +107,33 @@
 
 
 
+    <script>
+        // get the button from the DOM
+        const moreButtons = document.querySelectorAll('.moreInfo_dropdown');
+        moreButtons.forEach(button => {
+            console.log(button);
+            button.addEventListener('click', (event) => {
+                // get the parrent element (infobox2) from the element that was clicked on
+                const infobox2 = event.currentTarget.parentNode;
+                // toggle class
+                infobox2.classList.toggle('--open');
+                // find the button text element
+                const buttonText = event.currentTarget.querySelector('.dropdown__text');
+                console.log('text:', buttonText.textContent);
+                // change button text
+                if (buttonText.textContent === 'Se mere') {
+                    buttonText.textContent = 'Se mindre';
+                } else {
+                    buttonText.textContent = 'Se mere';
+                } 
+                //* console.log('clicked on ', event.currentTarget);
+                //* console.log(event.currentTarget.parentNode);
+            });
+        });
+    </script>
+
+
+
 
     
 

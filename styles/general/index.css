@@ -586,10 +586,7 @@ ul {
 
 .infoCard2 .secondwrapper, .infoCard2 .pakkeinfo {
   opacity: 0;
-}
-
-.infoCard2 .moreInfo_dropdown {
-  top: -60px;
+  transition: 1s ease-in;
 }
 
 /* OPEN STATE */

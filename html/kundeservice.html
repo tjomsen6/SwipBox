@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt</title>
+    <title>Kundeservice</title>
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 
@@ -52,40 +52,54 @@
 
     <p>Vi står klar til at hjælpe og vejlede dig</p>
 
-    <section> <!--Detter e containeren til knappen-->
-        <article> <!--dette er selve knappen-->
-            <img src="/media/Telefon.svg" alt="">
-        
-            <button>+45 7060 2230</button>
+    <section class="choice --choiceMargin-top">
+        <article class="button--style">
+            <article class="button__scan"> <!--dette er selve knappen-->
+                <img class="button__phoneImg" src="/media/Telefon.svg" alt="Telefon">
+                <button class="button__scanBtn --font-size">+45 7060 2230</button>
+            </article>
         </article>
-        <article> <!--dette er selve knappen-->
-            <img src="/media/Brev.svg" alt="">
-            <button>info@nærboks.dk</button>
+
+        <article class="button--style">
+            <article class="button__scan"> <!--dette er selve knappen-->
+                <img class="button__brevImg" src="/media/Brev.svg" alt="Brev">
+                <button class="button__scanBtn --font-size">Info@nærboks.dk</button>
+            </article>
         </article>
     </section>
 
-    <section>
-        <article>
-            <p>Send os en Besked</p>
-            <p>(svartid er 2-3 hverdage)</p>
-        </article>
+    <article>
+        <p>Send os en Besked</p>
+        <p>(svartid er 2-3 hverdage)</p>
+    </article>
+
+    <div class="col-xs-12">
+        <div class="styled-input wide --sizeNavn">
+            <textarea required></textarea>
+            <label class="label__text">Navn</label>
+        </div>
+    </div>
+
+    <section class="buttonPhone_container">
+        <button class="dropdown__phonebtn">
+            <img src="../media/denmark-flag.svg" alt="Danmarks flag">
+            <img src="../media/arrow-point-to-down.svg" alt="Drop down menu">
+        </button>
+        <input class="phoneinputfield" type="tel" id="phone" name="phone" placeholder="+45">
     </section>
-        
-    <section class="inputArea">
-        <article>
-            <input type="text" placeholder="Navn">
-        </article>
-        <article> 
-            <img src="/media/denmark.svg" alt="">
-            <input type="number" placeholder="Telefon Nummer">
-        </article>
-        <article>
-            <input type="text" placeholder="Den Email">
-        </article>
-        <article>
-            <input type="text" placeholder="Hvorfor skal vi kontakte dig?">
-        </article>
-    </section>
+    
+    <div class="col-xs-12">
+        <div class="styled-input wide">
+            <textarea required></textarea>
+            <label class="label__text">Din mail</label>
+        </div>
+    </div>
+    <div class="col-xs-12">
+        <div class="styled-input wide">
+            <textarea required></textarea>
+            <label class="label__text">Hvad har du på hjertet?</label>
+        </div>
+    </div>
 
     <footer class="globus">
         <img src="/media/globus.svg" alt="globus">

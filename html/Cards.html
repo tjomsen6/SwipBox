@@ -30,7 +30,7 @@
 
 
     <section class="infoCard2 --infocard2Flex">
-        <section class="bluebox"></section>
+        <section id="blue" class="bluebox"></section>
 
         <section class="wrapper">
             <section class="nærboks__info">
@@ -135,8 +135,12 @@
             button.addEventListener('click', (event) => {
                 // get the parrent element (infobox2) from the element that was clicked on
                 const infobox2 = event.currentTarget.parentNode;
+                console.log(infobox2);
+                const blueBox = document.getElementById('blue');
+                console.log(blueBox);
                 // toggle class
                 infobox2.classList.toggle('--open');
+                blueBox.classList.toggle('--open');
                 // find the button text element
                 const buttonText = event.currentTarget.querySelector('.dropdown__text');
                 console.log('text:', buttonText.textContent);

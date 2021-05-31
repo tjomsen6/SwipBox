@@ -226,13 +226,15 @@ min-width: 58px;
 }
 .infoCard2 .secondwrapper, .infoCard2 .pakkeinfo {
   opacity: 0;
-  transition: 1s ease-in;
 }
 
 /* OPEN STATE */
 .infoCard2.--open {
   height: fit-content;
-  overflow: visible
+  overflow: visible;
+}
+.bluebox.--open { 
+  overflow: visible;
 }
 
 .infoCard2.--open .secondwrapper, .infoCard2.--open .pakkeinfo {

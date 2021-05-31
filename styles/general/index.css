@@ -586,7 +586,6 @@ ul {
 
 .infoCard2 .secondwrapper, .infoCard2 .pakkeinfo {
   opacity: 0;
-  transition: 1s ease-in;
 }
 
 /* OPEN STATE */
@@ -594,6 +593,10 @@ ul {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  overflow: visible;
+}
+
+.bluebox.--open {
   overflow: visible;
 }
 

@@ -1,0 +1,14 @@
+.mascot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__img{
+        width: 170px;
+        margin-top: 100px;
+    }
+    &__txt{
+        text-align: center;
+    }
+}

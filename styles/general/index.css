@@ -200,6 +200,18 @@
   justify-content: center;
   align-items: center;
 }
+.body__verificering {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body__homeIdle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 p {
   font-family: "Exo 2";
@@ -222,6 +234,7 @@ h1 {
   font-size: 30px;
   margin-top: 55px;
   margin-bottom: 0px;
+  text-align: center;
 }
 
 h2 {
@@ -582,6 +595,8 @@ ul {
 .infoCard2 {
   height: 210px;
   overflow: hidden;
+  background-color: white;
+  margin-bottom: 50px;
 }
 
 .infoCard2 .secondwrapper, .infoCard2 .pakkeinfo {
@@ -610,7 +625,7 @@ ul {
 
 .historyCard {
   position: relative;
-  margin-top: 60px;
+  margin-top: 40px;
   width: 369px;
   border: none;
   border-radius: 15px;

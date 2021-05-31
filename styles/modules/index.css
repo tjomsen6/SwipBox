@@ -672,10 +672,6 @@ input[type=checkbox]:checked + label {
   margin-top: -23px;
 }
 
-.styled-input wide.--sizeNavn {
-  height: 55px;
-}
-
 .mascot {
   display: flex;
   flex-direction: column;

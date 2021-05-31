@@ -700,8 +700,10 @@ input[type=checkbox]:checked + label {
 
 .introduction__btn {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .nærbokslogo_introduktionscreen {
@@ -721,7 +723,6 @@ input[type=checkbox]:checked + label {
   white-space: nowrap;
   padding-left: 50px;
   padding-right: 46px;
-  padding-top: 70px;
   margin-bottom: 40px;
 }
 .scrolling-wrapper .card {
@@ -751,6 +752,13 @@ input[type=checkbox]:checked + label {
   background: linear-gradient(to left, #07bce9, #00a0d5);
   width: 3px;
   border-radius: 20px;
+}
+
+.oval {
+  width: 276px;
+  height: 138px;
+  background: #00A3DB;
+  border-radius: 240px/10px;
 }
 
 /* Remember to add new modules here:

@@ -620,7 +620,7 @@ input[type=checkbox]:checked + label {
 
 .buttonPhone_container {
   display: flex;
-  margin-top: 3em;
+  margin-bottom: 4px;
 }
 
 .confirmation__text {
@@ -672,6 +672,20 @@ input[type=checkbox]:checked + label {
   margin-top: -23px;
 }
 
+.--margintop {
+  margin-top: 8px;
+}
+
+.styled-input .textareaheight {
+  min-height: 0;
+}
+
+.Sendmessage {
+  margin-top: -30px;
+  margin-right: 133px;
+  font-size: 14px;
+}
+
 .mascot {
   display: flex;
   flex-direction: column;
@@ -718,8 +732,9 @@ input[type=checkbox]:checked + label {
   overflow: auto;
   white-space: nowrap;
   padding-left: 50px;
-  padding-right: 46px;
+  padding-right: 35px;
   margin-bottom: 40px;
+  margin-top: 50px;
 }
 .scrolling-wrapper .card {
   display: inline-block;

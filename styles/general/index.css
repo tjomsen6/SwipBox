@@ -184,9 +184,7 @@
 
 .body {
   margin: 0;
-  display: flex;
   font-family: "Exo 2";
-  flex-direction: column;
 }
 .body__feedback {
   display: flex;
@@ -231,6 +229,12 @@
   align-items: center;
 }
 .body__minPakke {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body__minPakkedone {
   display: flex;
   flex-direction: column;
   justify-content: center;

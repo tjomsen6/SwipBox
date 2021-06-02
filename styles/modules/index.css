@@ -862,25 +862,12 @@ input[type=checkbox]:checked + label {
   border-radius: 20px;
 }
 
-.oval {
-  width: 276px;
-  height: 138px;
-  background: #00A3DB;
-  border-radius: 240px/10px;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .infocontainer {
   height: 580px;
   width: 331px;
   border: none;
   border-radius: 15px;
+  background-color: white;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
   margin-top: 95px;
   display: flex;

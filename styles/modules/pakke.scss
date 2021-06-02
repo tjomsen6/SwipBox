@@ -1,0 +1,110 @@
+@use "../general/color" as *;
+
+.box{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__id{
+        background-color: $backColor;
+        padding: 0px 25px 0px 25px;
+        display: inline-block;
+        border-radius: 15px;
+
+        &__number{
+            color: $primaryText;
+        }
+    }
+    &__view{
+        margin: 50px 0px 30px 0px;
+        position: relative;
+        width: 100%;
+
+        &__video{
+           width: 100%;
+            position: absolute;
+            z-index: 2;
+
+           &__loop{
+               width: 100%;
+               position: absolute;
+               z-index: 1;
+             
+           }
+
+           &__end{
+            width: 100%;
+            position: absolute;
+
+           }
+        }
+    }
+    &__swipe{
+        width: 361px;
+        height: 67px;
+        border-radius: 15px;
+        background-color: $backColor;
+        overflow: hidden;
+        position: relative;
+        bottom: -40vh;
+        &__text{
+            font-size: 1.5rem;
+            color: #7B8594;
+            text-align: center;
+            position: relative;
+            top: -5px;
+        }
+    }
+
+    &__slide{
+        width: 67px;
+        height: 50px;
+        background: white;
+        display: block;
+        top: 50%;
+        left: 10px;
+        position: absolute;
+        transform: translateY(-50%);
+        border-radius: 15px;
+        transition: left .5s ease-in-out;
+        z-index: 2;
+        visibility: hidden;
+
+        &__arrows{
+            width: 100%;
+            object-fit: scale-down;
+            height: 100%;
+        }
+    }
+
+}
+
+.info__break{
+    width: 124px;
+    height: 5px;
+    background-color: $backColor;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: -39vh;
+}
+
+.ready{
+    color: white;
+    
+}
+
+.box__swipe.ready{
+    background-color: $primaryText;
+    transition: background-color 300ms linear;
+}
+
+.box__swipe.endBtn{
+    background-color: #59e65f;
+}
+
+.box__redirect{
+    text-decoration: none;
+    
+}

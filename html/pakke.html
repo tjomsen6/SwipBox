@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body class="body__feedback">
+    <header class="nav">
+        <nav class="navbar">
+            <section>
+                <a class="navbar__back" href="HomeActive.html"><img class="navbar__back__arrow" src="../media/left-arrow.svg" alt="Back arrow"></a>
+            </section>
+            <article class="navbar__logo" >
+                <img src="/media/Nærboks_logo.svg" alt="logo">
+            </article>
+            <article class="navbar__weather">
+                <img src="/media/Skyet.svg" alt="vejret">
+                <p></p> <!--det er her API skal indstilles til at vises-->
+            </article>
+        </nav>
+    </header>
+    <main>
+        <section class="box">
+            <article class="box__id">
+                <p class="box__id__number">13487</p>
+            </article>
+            <article class="box__view">
+               <video class="box__view__video" autoplay muted src="../media/Swip_Box_Infinity_01.mp4"></video>
+               <video class="box__view__video__loop" autoplay muted loop src="../media/Swip_Box_Infinity_02.mp4"></video>
+               <video class="box__view__video__end" autoplay muted src="../media/Swip_Box_Infinity_03.mp4"></video>
+            </article>
+
+            <article class="info__break"></article>
+    
+            <article class="box__swipe">
+
+                <span class="box__slide">
+                    <img class="box__slide__arrows" src="../media/arrows.svg" alt="">
+                </span>
+                <a class="box__redirect" href="">
+                <p class="box__swipe__text">Forbinder</p>
+                </a>
+            </article>
+        </section>
+    </main>
+
+    <footer class="globus">
+        <img src="/media/globus.svg" alt="globus">
+    </footer>
+<script src="../JS/pakke.js"></script>
+</body>
+</html>

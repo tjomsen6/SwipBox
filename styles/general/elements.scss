@@ -137,6 +137,15 @@ h3 {
     right: 20px;
     top: 10px;
   }
+  &__back{
+    position: absolute;
+    top: 13px;
+    left: 20px;
+
+    &__arrow{
+      width: 17px;
+    }
+  }
 }
 
 .nav{

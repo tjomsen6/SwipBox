@@ -13,7 +13,7 @@
   }
 
   &__action--small {
-    width: 159px;
+    width: 190px;
     height: 41px;
     border: none;
     border-radius: 15px;
@@ -97,7 +97,12 @@
     background-image: linear-gradient(to right, #ff3f47, #f26522);
     font-family: "Exo 2";
     font-weight: 500;
+
+    &__pin{
+      width: 12%;
+    }
   }
+
 
   &__location {
     width: 130px;

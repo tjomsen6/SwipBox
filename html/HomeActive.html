@@ -5,51 +5,158 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
-<body>
-    <header> <!--Skal navngives og styles med Grid eller Flex-->
-        <button> <img src="/media/Burgermenu.svg" alt="Burgermenu"></button>
-        <img src="/media/Nærboks_logo.svg" alt="logo">
-        <article>
+<body class="body__homeIdle">
+    <header class="nav">
+        <nav class="navbar">
+        <section class="burgermenu">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+        </section>
+        <article class="navbar__logo">
+            <img src="/media/Nærboks_logo.svg" alt="logo">
+        </article>
+        <article class="navbar__weather">
             <img src="/media/Skyet.svg" alt="vejret">
             <p></p> <!--det er her API skal indstilles til at vises-->
         </article>
+    </nav>
+    <section class="menu__container">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="">Forside</a>
+            </li>
+            <li class="nav__item">
+                <a href="">Retur</a>
+            </li>
+            <li class="nav__item">
+                <a href="">Historik</a>
+            </li>
+            <li class="nav__item">
+                <a href="">Kontakt</a>
+            </li>
+            <li class="nav__item">
+                <a href="">Giv feedback</a>
+            </li>
+            <li class="nav__item log">
+                <a href="">Log af</a>
+            </li>
+        </ul>
+    </section>
     </header>
+    <main>
+        <h1>Pakker</h1>
 
-    <h1>Pakker</h1>
-
-    <Section> <!--denne section er cardsnes container og skal styles med flex -->
-        
-        <section> <!--Denne section er carded-->
-            <article> <!--Denne article er til for at kunne style med flex nedad-->
-                <article> 
-                    <img src="/media/Postnord logo.svg" alt="">
-                    <p>NÆRBOKS VOTHMANNSPLADS</p>
-                    <P>Pakkenummer: 13315356</P>
-                </article>
-                <article> <!--denne article skal styles med flex sidelænds -->
-                    <article> 
-                        <article> <!--Denne skal styles med flex nedad-->
-                            <p>udløber om</p>
-                            <img src="" alt="">
-                         </article>  
-                         <article><!--Denne skal styles med flex nedad-->
-                             <p>vis vej til boks</p>
-                             <button> <img src="/media/pin.svg" alt=""></button>
-                         </article>
+        <section class="infoCard2 --infocard2Flex">
+            <section id="blue" class="bluebox"></section>
+    
+            <section class="wrapper">
+                <section class="nærboks__info">
+                    <h2 class="nærboks__name">NÆRBOKS VOTHMANNS PLADS</h2>
+                    <p class="nærboks__pakkenr">Pakkenummer: 00373325386872265244</p>
+                </section>
+                <img class="parcel__logo" src="../media/bringLogo.svg" alt="logo">
+    
+                <p class="exp__date">Udløber om</p>
+    
+                <button class="button__action --btnactionGrid">Hent pakke</button>
+    
+                <img class="Countdown" src="../media/Timer.svg" alt="Timer">
+            </section>
+    
+            <section class="secondwrapper">
+                <h2 class="location__title">Lokalitet</h2>
+    
+                <section class="locationbtn__gridarea">
+                    <article class="route__flex">
+                        <p class="route__flex__title">Vis vej til boks</p>
+                       <a href="https://www.google.dk/maps/dir/Alsion,+2,+6400+S%C3%B8nderborg/54.927486,9.798727/@54.9273489,9.7980207,195m/data=!3m1!1e3!4m9!4m8!1m5!1m1!1s0x47b339da5f87294d:0xea04925a23e4be5c!2m2!1d9.7781494!2d54.9133329!1m0!3e0"><button class="button__route"><img class="button__route__pin" src="../media/pin.svg" alt="Pin location"></button></a>
                     </article>
-                    <article> <!--hent pakke kanppen er inddelt i en article for sig så de kan styles med flex -->
-                        <button>Hent Pakke</button>
+    
+                    <article class="around__flex">
+                        <p class="around__flex__title">Se boksen</p>
+                        <a href="https://momento360.com/e/u/991b037c523646d8806d1f90893b010d?utm_campaign=embed&utm_source=other&heading=180.07&pitch=10.99&field-of-view=75&size=medium"><button class="button__location"><img src="../media/360.svg" alt="360 picture"></button></a>
                     </article>
+                </section>
+    
+                <article class="placeDescription">
+                    <p class="placeDescription__title">Beskrivelse af nærboks placering:</p>
+                    <p>Boksen er placeret udendørs. Står opad den sidste bygning, tættest mod broen</p>
                 </article>
-            </article>
+                <img class="nærboks__pic" src="../media/madsclausennærboks.svg" alt="Mads Clausen nærboks">
+            </section>
+    
+            <section class="pakkeinfo">
+                <h2 class="size__title">Mål på pakke</h2>
+                <section class="pakkeinfo__flex">
+                    <img src="../media/pakkeinfo.svg" alt="Pakke info">
+    
+                    <section class="pakkestats">
+                        <article class="pakkestats__line">
+                            <p class="--min-width">Længde</p>
+                            <p class="--min-width">30 cm</p>
+                        </article>
+    
+                        <article class="pakkestats__line">
+                            <p class="--min-width">Bredde</p>
+                            <p class="--min-width">20 cm</p>
+                        </article>
+    
+                        <article class="pakkestats__line">
+                            <p class="--min-width">Højde</p>
+                            <p class="--min-width">19 cm</p>
+                        </article>
+                    </section>
+                </section>
+            </section>
+    
+            <section class="moreInfo_dropdown">
+                <p class="dropdown__text">Se mere</p>
+                <img class="bluearrow" src="../media/blue-arrow-point-down.svg" alt="blue arrow dropdown">
+            </section>
         </section>
 
+            
        
-    </Section>
+    </main>
 
-    <footer>
-        <img src="/media/globus.svg" alt="globus">
-    </footer>
+<footer class="globus">
+    <img src="/media/globus.svg" alt="globus">
+</footer>
+
+
+<script src="../JS/menu.js"></script>
+<script>
+    // get the button from the DOM
+    const moreButtons = document.querySelectorAll('.moreInfo_dropdown');
+    moreButtons.forEach(button => {
+        console.log(button);
+        button.addEventListener('click', (event) => {
+            // get the parrent element (infobox2) from the element that was clicked on
+            const infobox2 = event.currentTarget.parentNode;
+            console.log(infobox2);
+            const blueBox = document.getElementById('blue');
+            console.log(blueBox);
+            // toggle class
+            infobox2.classList.toggle('--open');
+            blueBox.classList.toggle('--open');
+            // find the button text element
+            const buttonText = event.currentTarget.querySelector('.dropdown__text');
+            console.log('text:', buttonText.textContent);
+            // change button text
+            if (buttonText.textContent === 'Se mere') {
+                buttonText.textContent = 'Se mindre';
+            } else {
+                buttonText.textContent = 'Se mere';
+            } 
+            //* console.log('clicked on ', event.currentTarget);
+            //* console.log(event.currentTarget.parentNode);
+        });
+    });
+</script>
+
 </body>
+
 </html>

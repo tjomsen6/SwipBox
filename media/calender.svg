@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <g id="Group_208" data-name="Group 208" transform="translate(-26 -298)">
+    <circle id="Ellipse_40" data-name="Ellipse 40" cx="21" cy="21" r="21" transform="translate(26 298)" fill="#eef5ff"/>
+    <g id="calendar" transform="translate(38.124 281.09)">
+      <path id="Path_281" data-name="Path 281" d="M.461,158.372H12.522a.462.462,0,0,0,.3-.107c.116-.1,2.758-2.37,2.92-7.277H2.784a9.262,9.262,0,0,1-2.619,6.569.462.462,0,0,0,.3.815Z" transform="translate(0 -116.308)" fill="#464646"/>
+      <path id="Path_282" data-name="Path 282" d="M103.468,31.911H101.16V31.45a.462.462,0,1,0-.923,0v.462H97.9V31.45a.462.462,0,1,0-.923,0v.462H94.668V31.45a.462.462,0,1,0-.923,0v.462H91.438a.457.457,0,0,0-.462.462v1.385h12.953V32.373A.457.457,0,0,0,103.468,31.911Z" transform="translate(-88.177)" fill="#464646"/>
+      <path id="Path_283" data-name="Path 283" d="M101.588,301.31a1.389,1.389,0,0,1-.888.322H90.977v1.385a.461.461,0,0,0,.462.462h12.03a.461.461,0,0,0,.462-.462v-5.173A9.147,9.147,0,0,1,101.588,301.31Z" transform="translate(-88.178 -258.645)" fill="#464646"/>
+    </g>
+  </g>
+</svg>

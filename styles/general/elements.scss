@@ -29,7 +29,27 @@
     justify-content: center;
     align-items: center;
   }
+  &__verificering{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__homeIdle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__historik{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
+
 
 
 p {
@@ -58,6 +78,7 @@ h1 {
   font-size: 30px;
   margin-top: 55px;
   margin-bottom: 0px;
+  text-align: center;
 }
 
 h2{

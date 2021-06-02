@@ -4,35 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
     <title>Introduktion</title>
 </head>
 <body>
     <header>
-        <img src="/media/Nærboks_logo.svg" alt="logo">
+        <img class="nærbokslogo_introduktionscreen" src="/media/Nærboks_logo.svg" alt="logo">
     </header>
-<!-- dette er containeren til at lave Introduktioner i -->
-    <section> 
-        <Article> 
-            <article> 
-                <img src="/media/IntroCard1.svg" alt="Introduktion">
+
+    <section class="scrolling-wrapper">  
+            <article class="card">
+                <img src="/media/introcard1@3x.png" alt="Introduktion">
             </article>
-            <article>
-                <img src="" alt="">
+            <article class="card">
+                <img src="/media/introcard2@3x.png" alt="Introduktion">
             </article>
-            <article>
-                <img src="" alt="">
+            <article class="card">
+                <img src="/media/introcard3@3x.png" alt="Introduktion">
             </article>
-        </Article>
     </section>
 
-    <section> <!--indsæt flexbox på denne-->
-        <article>
-            <button>
-                <p>Spring Over</p>
-            </button>
-            <button>
-                <p>Næste</p>
-            </button>
+    <section class="introduction__btn">
+        <article class="button--style">
+            <button class="button__skip --button__skip__width">Spring over</button>
+          </article>
+          <article class="button--style">
+            <button class="button__next --button__next__width">Næste</button>
+          </article>
         </article>
     </section>
 </body>

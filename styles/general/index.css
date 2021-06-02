@@ -253,7 +253,7 @@ p {
   justify-content: center;
 }
 h1 {
-  color: #05b4e3;
+  color: #00A3DB;
   font-family: "Exo 2";
   font-size: 30px;
   margin-top: 55px;
@@ -310,6 +310,14 @@ h3 {
   position: absolute;
   right: 20px;
   top: 10px;
+}
+.navbar__back {
+  position: absolute;
+  top: 13px;
+  left: 20px;
+}
+.navbar__back__arrow {
+  width: 17px;
 }
 
 .nav {

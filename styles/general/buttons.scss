@@ -45,6 +45,19 @@
     font-weight: 500;
   }
 
+  &__feedback {
+    width: 159px;
+    height: 41px;
+    border: none;
+    border-radius: 15px;
+    background-color: #25E632;
+    color: white;
+    font-family: "Exo 2";
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
   &__next {
     width: 125px;
     height: 41px;

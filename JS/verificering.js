@@ -18,7 +18,7 @@ container.addEventListener("keyup", function (e) {
 
         if (document.activeElement === last) {
             if (last.value != "") {
-                window.location.href = "fuldfartfæst.html";
+                window.location.href = "../html/HomeActive.html";
 
             }
         }

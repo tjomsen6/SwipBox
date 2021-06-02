@@ -40,6 +40,18 @@
   font-family: "Exo 2";
   font-weight: 500;
 }
+.button__feedback {
+  width: 159px;
+  height: 41px;
+  border: none;
+  border-radius: 15px;
+  background-color: #25E632;
+  color: white;
+  font-family: "Exo 2";
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 .button__next {
   width: 125px;
   height: 41px;
@@ -172,9 +184,7 @@
 
 .body {
   margin: 0;
-  display: flex;
   font-family: "Exo 2";
-  flex-direction: column;
 }
 .body__feedback {
   display: flex;
@@ -218,6 +228,18 @@
   justify-content: center;
   align-items: center;
 }
+.body__minPakke {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body__minPakkedone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 p {
   font-family: "Exo 2";
@@ -235,7 +257,7 @@ p {
   justify-content: center;
 }
 h1 {
-  color: #05b4e3;
+  color: #00A3DB;
   font-family: "Exo 2";
   font-size: 30px;
   margin-top: 55px;
@@ -292,6 +314,14 @@ h3 {
   position: absolute;
   right: 20px;
   top: 10px;
+}
+.navbar__back {
+  position: absolute;
+  top: 13px;
+  left: 20px;
+}
+.navbar__back__arrow {
+  width: 17px;
 }
 
 .nav {

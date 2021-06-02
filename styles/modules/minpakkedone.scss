@@ -1,0 +1,44 @@
+@use "../general/color" as *;
+
+.infocontainer{
+    height: 580px;
+    width: 331px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    margin-top: 95px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.packinfo_title{
+font-weight: 600;
+margin-top: 32px;
+}
+
+.packinfo__text{
+    width: 300px;
+    padding: 0 1rem;
+    margin-top: -15px;
+}
+
+.videocontainer{
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.mascotvideo{
+    width: 80%;
+    position: relative;
+    top: -85px;
+}
+
+.closedoorText{
+    font-weight: 500;
+    font-size: 31px;
+    margin-top: -5px;
+}

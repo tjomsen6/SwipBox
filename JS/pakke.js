@@ -4,8 +4,6 @@ const swipeTxt = document.querySelector('.box__swipe__text');
 const swipteBtn = document.querySelector('.box__swipe');
 const videoLoop = document.querySelector('.box__view__video__loop');
 const videoEnd = document.querySelector('.box__view__video__end');
-const aTag = document.createElement('a');
-aTag.setAttribute('href', 'home.html');
 
 
 
@@ -38,7 +36,7 @@ slideBtn.addEventListener("click", function () {
         swipeTxt.textContent = "Færdig";
         swipteBtn.classList.remove('ready');
         swipteBtn.classList.add('endBtn');
-        swipeTxt.appendChild(aTag);
     }, 3000);
 
 });
+

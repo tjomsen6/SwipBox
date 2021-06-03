@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design system example</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Oxygen:wght@300;400;700&display=swap"
+    />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/modules/styleguide.scss" />
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#colors" class="menu__link">Colors</a>
+          </li>
+          <li class="menu__item">
+            <a href="#buttons" class="menu__link">Buttons</a>
+          </li>
+          <li class="menu__item">
+            <a href="#fonts" class="menu__link">Fonts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="module" id="colors">
+      <h2 class="title">Colors</h2>
+      <article class="color --primary">
+        <h3 class="color__title">Action Button</h3>
+        <h4 class="color__code">#07BCE9 -> #00A0D5</h4>
+      </article>
+      <article class="color --option">
+        <h3 class="color__title">Route color</h3>
+        <h4 class="color__code">#3C464F</h4>
+      </article>
+      <article class="color --like">
+        <h3 class="color__title">Like</h3>
+        <h4 class="color__code">#00E864</h4>
+      </article>
+      <article class="color --dislike">
+        <h3 class="color__title">Dislike</h3>
+        <h4 class="color__code">#D90000</h4>
+      </article>
+    </section>
+    <section class="module" id="buttons">
+      <h2 class="title">Buttons</h2>
+      <article class="button--style">
+        <button class="button__action">Opret</button>
+      </article>
+      <br>
+      <article class="button--style">
+          <button class="button__action--small">Send besked</button>
+      </article>
+      <br>
+      <article class="button--style">
+          <button class="button__action--thin">Hent pakke</button>
+      </article>
+      <br>
+      <article class="button--style">
+          <button class="button__action--error">Forkert kode</button>
+      </article>
+      <br>
+      <article class="button--style">
+        <button class="button__next">Næste</button>
+      </article>
+      <br>
+      <article class="button--style">
+        <button class="button__skip">Spring over</button>
+      </article>
+      <br>
+      <article class="button--style">
+        <button class="button__abort--small">Afbryd</button>
+      </article>
+      <br>
+      <article class="button--style">
+          <button class="button__abort">Afbryd</button>
+      </article>
+      <br>
+      <article class="button--style">
+          <button class="button__route"><img class="button__route__pin" src="../media/pin.svg" alt="Pin location"></button>
+      </article>
+      <br>
+      <article class="button--style">
+          <button class="button__location"><img src="../media/360.svg" alt="360 picture"></button>
+      </article>
+      <article class="button--style">
+          <article class="button__scan"> <!--dette er selve knappen-->
+              <img class="button__scanImg" src="/media/ScanPakkenr.svg" alt="">
+              <p class="button__scanTxt">Scan <br> Stregkode</p>
+              <button class="button__scanBtn">Næste</button>
+          </article>
+      </article>
+    </section>
+    <section class="module" id="fonts">
+      <h2 class="title">Fonts</h2>
+      <article>
+        <h3 class="font">Exo 2</h3>
+        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic nulla fugiat illum ex nesciunt nisi consectetur, inventore voluptas doloribus reiciendis quo harum. Quam deleniti nobis id culpa reprehenderit libero aut!</p>
+      </article>
+    </section>
+  </body>
+</html>

@@ -905,7 +905,7 @@ input[type=checkbox]:checked + label {
   margin-top: -5px;
 }
 
-body {
+.styleguide {
   background-color: #c4c4e2;
 }
 
